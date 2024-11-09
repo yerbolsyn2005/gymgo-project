@@ -1,0 +1,580 @@
+:root {
+    --yellow-color: #f8fc21;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    top: 0;
+    left: 0;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* STYLING OF HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+#logo {
+    font-weight: 700;
+    margin-left: 150px;
+}
+
+.nav-link {
+    margin-right: 60px;
+    color: #8a8989;
+    text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #000000;
+}
+
+#header-button {
+    margin-right: 150px;
+    width: 125px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#header-button:hover {
+    background-color: #1f1e1e;
+}
+
+#header-button:active {
+    background-color: #3a3939;
+}
+
+/* STYLING MAIN */
+main {
+    margin-top: 30px;
+    padding: 20px 150px;
+}
+
+#title-and-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+    line-height: 0.8;  
+    font-size: 150px;
+    font-weight: 700;
+}
+
+#home-section {
+    scroll-margin-top: 100px;
+}
+
+#home-image {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+#home-text {
+    margin-bottom: 60px;
+}
+
+/* STYLING PROGRAM SECTION */
+#programs-section {
+    scroll-margin-top: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#class-div {
+    width: 49%;
+}
+
+#class-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#programs-div {
+    width: 49%;
+}
+
+.program {
+    line-height: 3.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+
+.kids {
+    margin-bottom: 0;
+}
+
+/* EXPERIENCE SECTION STYLING */
+#experience-section {
+    scroll-margin-top: 100px;
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.experience-image {
+    height: 370px;
+    width: 400px;
+    border: none;
+    border-radius: 40px;
+}
+
+#experience-trainer {
+    padding: 25px;
+    width: 780px;
+    height: 320px;
+    border-radius: 40px;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
+
+.experience-trainer-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#experience-trainer-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+#experience-trainer-name {
+    margin-left: 10px;
+    color: #fff;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#experience-show-all-button {
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#experience-title {
+    color: var(--yellow-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.workout-plan {
+    border: 1px solid #000000;
+    background-color: #a8a8a8;
+}
+
+#experience-image-text {
+    margin: 60px;
+    font-size: 40px;
+}
+
+#experience-image-text span {
+    color: var(--yellow-color);
+}
+
+/* BLOG SECTION STYLING */
+#blog-section {
+    scroll-margin-top: 100px;
+    margin: 60px 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    background-color: var(--yellow-color);
+}
+
+#blog-title {
+    margin-left: 40px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+#blog-text {
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+#blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-image {
+    transform: scale(0.9);
+}
+
+.blog-text {
+    margin-left: 40px;
+    height: auto;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.blog-button {
+    margin-left: 40px;
+    font-size: 18px;
+    width: 125px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #ff9900;
+}
+
+.blog-button:hover {
+    background-color: #dd8501;
+}
+
+.blog-button:active {
+    background-color: #be7200;
+}
+
+/* PRICING SECTION STYLING */
+#pricing-section {
+    scroll-margin-top: 100px;
+    margin-bottom: 60px;
+    padding: 0 40px 60px 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #000000;
+}
+
+#price-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pricing-title {
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+#pricing-text {
+    color: #ffffff;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+#prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-div {
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    width: 340px;
+    background-color: #494949;
+}
+
+.price {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.availability {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.advantage-li {
+    color: #ffffff;
+}
+
+.join-button {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #494949;
+}
+
+.join-button:hover {
+    background-color: #424242;
+}
+
+.join-button:active {
+    background-color: #383838;
+}
+
+/* SOCIAL MEDIA STYLING */
+#social-media-title {
+    line-height: 1;
+}
+
+#social-media-title > span:first-of-type {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+#social-media-title > span:last-of-type {
+    font-size: 58px;
+    font-weight: 600;
+}
+
+#social-media-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#social-media-list {
+    width: 50%;
+}
+
+.social-media {
+    line-height: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+
+/* FOOTER STYLING */
+footer {
+    padding: 20px 150px;
+}
+
+#footer-container {
+    border: none;
+    border-radius: 40px;
+    background-color: #000000;
+}
+
+#footer-head {
+    padding: 10px 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#footer-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#footer-body {
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-body-div {
+    line-height: 1;
+    width: 300px;
+    padding: 10px 30px;
+    border-right: 1px solid #ffffff;
+}
+
+#footer-body-text {
+    color: var(--yellow-color);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.footer-body-navbar {
+    display: flex;
+    flex-direction: column;
+    line-height: 3.6;
+    width: 300px;
+    padding: 10px 30px;
+    border-right: 1px solid #ffffff;
+}
+
+.footer-nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    text-decoration: underline;
+}
+
+.footer-body-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 10px 30px;
+}
+
+label {
+    width: 500px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#footer-email {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+#footer-copyright {
+    padding: 10px;
+    text-align: center;
+}
+
+#footer-copyright-text {
+    color: #ffffff;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 10px; /* Reduced padding for smaller screens */
+    }
+
+    #header-div {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Add some padding */
+    }
+
+    #logo {
+        margin-left: 0; /* Center logo */
+        text-align: center;
+    }
+
+    .nav-link {
+        margin-right: 20px; /* Reduce spacing between nav links */
+    }
+
+    #header-button {
+        width: 100%; /* Full width button on mobile */
+        margin-right: 0; /* Remove right margin */
+        margin-top: 10px; /* Add some spacing above */
+    }
+
+    #home-text, #experience-title, #blog-title, #pricing-title {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .program, .social-media {
+        flex-direction: column; /* Stack items in programs and social media sections */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .price-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #blogs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        padding: 20px 40px; /* Medium padding for tablets */
+    }
+
+    #header-div {
+        padding: 15px; /* Adjust padding for tablets */
+    }
+
+    #title {
+        font-size: 100px; /* Adjust title size for tablets */
+    }
+
+    #class-title, #experience-title, #blog-title, #pricing-title {
+        font-size: 40px; /* Slightly smaller titles */
+    }
+
+    .program, .social-media {
+        flex-direction: row; /* Arrange items in a row for tablets */
+    }
+
+    .price-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #blogs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    main {
+        padding: 20px 150px; /* Original padding for desktops */
+    }
+
+    #header-div {
+        padding: 20px; /* Keep original padding */
+    }
+
+    #title {
+        font-size: 150px; /* Original title size */
+    }
+
+    #class-title, #experience-title, #blog-title, #pricing-title {
+        font-size: 50px; /* Original title size */
+    }
+
+    .price-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#popup {
+    z-index: 100;
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+}
